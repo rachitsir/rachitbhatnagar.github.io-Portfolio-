@@ -3,25 +3,188 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emma Bhatnagar | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Rachit Bhatnagar | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #004aad, #0078d7);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    h2 {
+      color: #004aad;
+      border-left: 4px solid #004aad;
+      padding-left: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .experience-item {
+      background: white;
+      padding: 1.2rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .experience-item h3 {
+      margin-top: 0;
+      color: #004aad;
+    }
+
+    ul {
+      margin: 0.5rem 0 0 1.5rem;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer a {
+      color: #ffde59;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .skill-tag {
+      background-color: #eaf1ff;
+      color: #004aad;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+  </style>
 </head>
+
 <body>
   <header>
-    <h1>Hello, I’m Emma 👋</h1>
-    <p>Developer | Innovator | Microsoft Certified</p>
+    <h1>Rachit Bhatnagar, PMI-ACP®</h1>
+    <p>Technical Lead at Forvis Mazars, UK | 10× Microsoft Certified | Power Platform Specialist</p>
   </header>
 
-  <section id="projects">
-    <h2>My Projects</h2>
-    <div class="project">
-      <h3>Automation Framework</h3>
-      <p>A Power Platform governance framework to streamline workflows.</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a Solutions Engineering Technical Lead and Power Platform Specialist with over 7 years of experience.
+      I specialize in developing automation solutions using Power Apps, Power Automate, Copilot Studio, Power BI, SharePoint Online, Dataverse, and Nintex Workflow.
+    </p>
+    <p>
+      I’m passionate about building scalable, efficient, and business-driven digital solutions. I enjoy mentoring, collaborating, and driving innovation across teams.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Core Skills</h2>
+    <div class="skills">
+      <span class="skill-tag">Power Platform</span>
+      <span class="skill-tag">Power Apps</span>
+      <span class="skill-tag">Power Automate</span>
+      <span class="skill-tag">Power BI</span>
+      <span class="skill-tag">Azure DevOps</span>
+      <span class="skill-tag">SharePoint Online</span>
+      <span class="skill-tag">Dataverse</span>
+      <span class="skill-tag">Nintex Workflow</span>
+      <span class="skill-tag">Copilot Studio</span>
+      <span class="skill-tag">PowerShell</span>
+      <span class="skill-tag">AI Builder</span>
     </div>
   </section>
 
+  <section id="experience">
+    <h2>Professional Experience</h2>
+
+    <div class="experience-item">
+      <h3>Forvis Mazars, UK</h3>
+      <p><strong>Innovation Technical Lead</strong> | February 2024 – Present</p>
+      <ul>
+        <li>Leading a team of 3 members on Power Platform and Azure DevOps Platform.</li>
+        <li>Driving digital innovation and automation initiatives across the firm.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Forvis Mazars, UK</h3>
+      <p><strong>Senior Innovation Developer</strong> | April 2022 – February 2024</p>
+      <ul>
+        <li>Developed Power Apps, Power Automate workflows, and Power BI reports.</li>
+        <li>Created SharePoint Online sites, Power Virtual Agents, and automation solutions.</li>
+        <li>Mentored and trained 3 developers in Power Platform development best practices.</li>
+      </ul>
+    </div>
+
+    <div class="experience-item">
+      <h3>Infosys</h3>
+      <p><strong>Senior System Engineer</strong> | 2019 – April 2022</p>
+      <ul>
+        <li>Led a team of 3 members in migrating on-premise sites to SharePoint Online.</li>
+        <li>Developed Power Apps, Nintex Workflows, and Power Automate solutions.</li>
+        <li>Created Power BI reports and PowerShell scripts for process automation.</li>
+        <li>Trained 8 new joiners across project phases and technology stacks.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="skills">
+      <span class="skill-tag">PMI-ACP®</span>
+      <span class="skill-tag">MS-900</span>
+      <span class="skill-tag">AZ-900</span>
+      <span class="skill-tag">AI-900</span>
+      <span class="skill-tag">PL-900</span>
+      <span class="skill-tag">PL-100</span>
+      <span class="skill-tag">PL-200</span>
+      <span class="skill-tag">PL-300</span>
+      <span class="skill-tag">PL-400</span>
+      <span class="skill-tag">PL-500</span>
+      <span class="skill-tag">PL-600</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:rachitbhatnagar3012@gmail.com">rachitbhatnagar3012@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/rachitbhatnagar-pmi-acp/" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
   <footer>
-    <p>© 2025 Emma Bhatnagar</p>
+    <p>© 2025 Rachit Bhatnagar | Designed with 💙 and Power Platform passion</p>
   </footer>
 </body>
 </html>
